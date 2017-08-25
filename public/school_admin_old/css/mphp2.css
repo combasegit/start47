@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@charset "utf-8";
+/* CSS Document */
+/* =========================================================
+Reset of Default Style
+========================================================= */
+h1, h2, h3, h4, h5, h6, p, address, a,
+ul, ol, li, dl, dt, dd,
+table, th, td, img, form {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight:normal;
+	font-size: 105%;
+	text-align: left;
+	line-height:140%;
+	vertical-align: middle;
+	background: transparent;
+
+}
+
+/* ブラウザ間でのフォントサイズリセット */
+textarea { font-size: 100%; }
+
+/* 画像下部空きのリセット */
+img { vertical-align: middle; border:0; }
+a img{ border:0; }
+
+/* リストのスタイルをリセット */
+ul {
+	list-style-type: none;
+}
+
+hr  { display: none; }
+
+
+/* =========================================================
+Clear Fix
+========================================================= */
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-table;
+	min-height: 1%;
+}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE-mac */
+
+/* =========================================================
+body
+========================================================= */
+body {
+	background:#fff;
+	color:#333;
+    font-family: ipa;
+	font-size:100%;
+	margin: 0;
+	padding: 0;
+}
+
+/* =========================================================
+float
+========================================================= */
+.fLFT{
+	float:left;
+}
+.fCLR{
+	clear:both;
+	height:1%;
+}
+.fRIT{
+	float:right;
+}
+
+/* =========================================================
+font
+========================================================= */
+.f18{
+	font-size:140%;
+	line-height:140%;
+}
+
+/* =========================================================
+text
+========================================================= */
+.tCNT{
+	text-align:center;
+	font-size:140%;
+}
+
+/* =========================================================
+margin
+========================================================= */
+/* _margin_TOP */
+.margin_t10{
+	margin-top:10px;
+}
+.margin_t20{
+	margin-top:20px;
+}
+.margin_t30{
+	margin-top:30px;
+}
+.margin_t50{
+	margin-top:50px;
+}
+.margin_t80{
+	margin-top:80px;
+}
+
+
+
+/*
+	common
+*/
+html, body{
+	margin:0;
+	padding:0;
+	line-height:160%;
+}
+img, input{
+	vertical-align:middle;
+}
+p{
+    font-size: 100%;
+}
+
+
+
+/*
+	page_break
+*/
+.break{
+	page-break-before: always;
+}
+
+
+
+table{
+  width: 100%;
+}
+  tr:nth-child(odd){
+    background: #f7f7f7;
+  }
+  th{
+    background: #ccc;
+    padding: 10px;
+  }
+  th:first-child{
+    width: 20%;
+  }
+  th:nth-child(2){
+    width: 60%;
+  }
+  th:last-child{
+    width: 20%;
+  }
+  td{
+    padding: 10px;
+    border:1px solid #CCCCCC;
+  }
+
+.q_txt {
+    border:none;
+}
+.q_txt img{
+    vertical-align:top;
+}
+
+
+.ans_l_box {
+	width:48%;
+	border:1px solid #CCCCCC;
+	margin:2px;
+	float:left;
+}
+.ok_ans {
+	border:1px solid #000000;
+}
+
+.ans_min_box {
+	padding:5px;
+	background-color:#CCCCCC;
+	color:#FFFFFF;
+	text-align:center;
+}
+.ok_ans_min_box {
+	padding:5px;
+	background-color:#000000;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+.header {
+	text-align:left;
+	font-size:10px;
+}
+.footer {
+	text-align:right;
+	font-size:10px;
+}

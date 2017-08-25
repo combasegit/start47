@@ -1,0 +1,91 @@
+php_flag opcache.enable Off
+
+### 製作中キャッシュの制御（残さない）#################################
+<Files ~ "\.(html|php|jpe?g|gif|png|css|js|pdf)$">
+Header add Pragma "no-cache"
+Header set Cache-Control no-cache
+</Files>
+
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://start47.com/$1 [R=301,L]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^/$ index\.php [L,QSA]
+RewriteRule ^index\.html$ index\.php [L,QSA]
+RewriteRule ^sitemap\.html$ sitemap\.php [L,QSA]
+RewriteRule ^about_us\.html$ about_us\.php [L,QSA]
+RewriteRule ^privacy\.html$ privacy\.php [L,QSA]
+RewriteRule ^company\.html$ company\.php [L,QSA]
+RewriteRule ^news\.html$ news\.php [L,QSA]
+
+RewriteRule ^support/$ support/index\.php [L,QSA]
+RewriteRule ^support/index\.html$ support/index\.php [L,QSA]
+RewriteRule ^support/faq\.html$ support/faq\.php [L,QSA]
+RewriteRule ^support/contact\.html$ support/contact\.php [L,QSA]
+
+
+RewriteRule ^search/$ search/index\.php [L,QSA]
+RewriteRule ^search/index\.html$ search/index\.php [L,QSA]
+RewriteRule ^search/result\.html$ search/result\.php [L,QSA]
+
+RewriteRule ^first/$ first/index\.php [L,QSA]
+RewriteRule ^first/index\.html$ first/index\.php [L,QSA]
+RewriteRule ^first/relieve_concern\.html$ first/relieve_concern\.php [L,QSA]
+RewriteRule ^about/$ about/index\.php [L,QSA]
+RewriteRule ^about/index\.html$ about/index\.php [L,QSA]
+RewriteRule ^howto/$ howto/index\.php [L,QSA]
+RewriteRule ^howto/index\.html$ howto/index\.php [L,QSA]
+RewriteRule ^expense/$ expense/index\.php [L,QSA]
+RewriteRule ^expense/index\.html$ expense/index\.php [L,QSA]
+RewriteRule ^after_graduation/$ after_graduation/index\.php [L,QSA]
+RewriteRule ^after_graduation/index\.html$ after_graduation/index\.php [L,QSA]
+RewriteRule ^concierge/$ concierge/index\.php [L,QSA]
+RewriteRule ^concierge/index\.html$ concierge/index\.php [L,QSA]
+RewriteRule ^concierge/ask\.html$ concierge/ask\.php [L,QSA]
+
+###資料請求#################################
+RewriteRule ^entry\.html$ entry\.php [L,QSA]
+RewriteRule ^entry_form\.html$ entry_form\.php [L,QSA]
+RewriteRule ^add_watch_list\.html$ add_watch_list\.php [L,QSA]
+RewriteRule ^watch_list\.html$ watch_list\.php [L,QSA]
+
+###イベント参加#################################
+RewriteRule ^entry_event\.html$ entry_event\.php [L,QSA]
+
+
+###検索結果#################################
+RewriteRule ^search/([0-9A-Za-z_]+)/index\.html$ search/result\.php?area_code=$1 [L,QSA]
+RewriteRule ^search/([0-9A-Za-z_]+)/$ search/result\.php?area_code=$1 [L,QSA]
+RewriteRule ^search/this_site\.html$ search/this_site\.php [L,QSA]
+RewriteRule ^search/feature\.html$ search/feature\.php [L,QSA]
+
+RewriteRule ^search/([0-9A-Za-z_]+)/([0-9A-Za-z_]+)/index\.html$ search/result\.php?area_code=$1&pref_code=$2 [L,QSA]
+RewriteRule ^search/([0-9A-Za-z_]+)/([0-9A-Za-z_]+)/$ search/result\.php?area_code=$1&pref_code=$2 [L,QSA]
+
+###学校詳細#################################
+RewriteRule ^school/([0-9]+)/index\.html$ school/index\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/$ school/index\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/curriculum\.html$ school/curriculum\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/schooling\.html$ school/schooling\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/campus\.html$ school/campus\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/requirements\.html$ school/requirements\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/fee\.html$ school/fee\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/regulation\.html$ school/regulation\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/club\.html$ school/club\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/event\.html$ school/event\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/news/index\.html$ school/news/index\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/news/$ school/news/index\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/news/detail_([0-9]+)\.html$ school/news/detail\.php?school_id=$1&news_id=$2 [L,QSA]
+RewriteRule ^school/([0-9]+)/opencampus/index\.html$ school/opencampus/index\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/opencampus/$ school/opencampus/index\.php?school_id=$1 [L,QSA]
+RewriteRule ^school/([0-9]+)/opencampus/detail_([0-9]+)\.html$ school/opencampus/detail\.php?school_id=$1&event_id=$2 [L,QSA]
+
+ErrorDocument 404 https://start47.com/
+ErrorDocument 403 https://start47.com
+
+

@@ -1,0 +1,98 @@
+aiekokusai,AIE国際高等学校,通信制高校
+aoyamabeautygakuin,青山ビューティ学院高等部　東京校　京都校,通信制サポート校
+asukamirai_kizuna,飛鳥未来きずな高等学校 登米本校,通信制高校
+asukamirai_kizuna_kobe,飛鳥未来きずな高等学校 神戸キャンパス,通信制高校
+asukamirai_kizuna_ochanomizu,飛鳥未来きずな高等学校 お茶の水キャンパス,通信制高校
+asukamirai_kizuna_okinawa,飛鳥未来きずな高等学校 沖縄キャンパス,通信制高校
+asukamirai_kizuna_omiya,飛鳥未来きずな高等学校 大宮キャンパス,通信制高校
+asukamirai_kizuna_tachikawa,飛鳥未来きずな高等学校 立川キャンパス,通信制高校
+asukamiraikoutougakkouayase,飛鳥未来高等学校 綾瀬キャンパス,通信制高校
+asukamiraikoutougaxtukou,飛鳥未来高等学校 池袋キャンパス,通信制高校
+asukamiraikoutougaxtukouchiba,飛鳥未来高等学校 千葉キャンパス,通信制高校
+asukamiraikoutougaxtukoufukuoka,飛鳥未来高等学校福岡キャンパス,通信制高校
+asukamiraikoutougaxtukouhiroshima,飛鳥未来高等学校 広島キャンパス,通信制高校
+asukamiraikoutougaxtukounagoya,飛鳥未来高等学校名古屋キャンパス,通信制高校
+asukamiraikoutougaxtukounara,飛鳥未来高等学校奈良本校,通信制高校
+asukamiraikoutougaxtukouoosaka,飛鳥未来高等学校大阪キャンパス,通信制高校
+asukamiraikoutougaxtukousapporo,飛鳥未来高等学校札幌キャンパス,通信制高校
+asukamiraikoutougaxtukousendai,飛鳥未来高等学校仙台キャンパス,通信制高校
+asukamiraikoutougaxtukouyokohama,飛鳥未来高等学校横浜キャンパス,通信制高校
+ChibaModeBuisiness1,千葉モードビジネス専門学校 高等課程,技能連携校
+chukyokotoggako,中京高等学校通信制課程・へいせい義塾館高等学院,通信制高校
+chuoartsacademy,中央アートアカデミー高等部,通信制サポート校
+chuokotogakuin,中央高等学院,通信制サポート校
+clark_memorial_international_high_school,クラーク記念国際高等学校,通信制高校
+daichigakuen,大智学園高等学校,通信制高校
+daiichi_yakka_shibuya,第一薬科大学付属高等学校,通信制高校
+daiichigakuinkotogakko,第一学院高等学校,通信制高校
+DaiichigakuinMobileHighSchool,第一学院 Mobile HighSchool（通信コース）,通信制高校
+ECCgakuenkoutougakkou,ECC学園高等学校,通信制高校
+fashioncollegesakuragaoka,桜丘学園高等部　総合芸術科,通信制サポート校
+gihukokusaikoutougakkou,ぎふ国際高等学校,通信制高校
+hinode,日出高等学校　通信制課程,通信制高校
+hitotuba,一ツ葉高等学校,通信制高校
+hokugei_ikebukuro,学校法人恭敬学園　北海道芸術高等学校　東京池袋キャンパス,通信制高校
+hokugei_yokohama,北海道芸術高等学校　横浜キャンパス,通信制高校
+hokugei-fukuoka,北海道芸術高等学校　福岡キャンパス,通信制高校
+hokugei-sendai,北海道芸術高等学校　仙台サテライトキャンパス,通信制高校
+human_hischool,学校法人佐藤学園　ヒューマンキャンパス高等学校,通信制高校
+idejukuchuo,井手塾中央高等学院,通信制サポート校
+ikegamigakuinkoukou,池上学院高等学校,通信制高校
+kamimura_hiroshima,神村学園高等部広島学習センター,通信制高校
+kamimura_kyoto,神村学園高等部 京都学習センター,通信制高校
+kamimuragakuen,神村学園高等部福岡学習センター,通信制高校
+kashima_asahi,鹿島朝日高等学校,通信制高校
+kashima-asahigaoka,朝日ヶ丘高等学園（鹿島朝日高校）,通信制サポート校
+kashimagakuen,鹿島学園高等学校,通信制高校
+kawaharakoto,河原高等専修学校,技能連携校
+keifukoutougakkou,慶風高等学校,通信制高校
+kiboukoto,希望高等学園,通信制サポート校
+kokusaigakuin,国際学院高等学校　通信制課程,通信制高校
+ktcchuohkoutougakuin,KTC中央高等学院,通信制サポート校
+kyotokyoeigakuen,京都共栄学園高等学校,通信制高校
+kyotomiyama,京都美山高等学校 （インターネット通信制高校 ）,通信制高校
+matsuegakuen,松栄学園高等学校【通学型】,通信制高校
+meiseikotogakko,明聖高等学校,通信制高校
+mesar,音楽学校メーザー・ハウス 高等部,通信制サポート校
+minekotogakuin,マイン高等学院　大分キャンパス,通信制サポート校
+minekotogakuinkagoshima,マイン高等学院　鹿児島キャンパス,通信制サポート校
+minekotogakuinnakatsu,マイン高等学院　中津キャンパス,通信制サポート校
+minekotogakuinokinawa,マイン高等学院　沖縄キャンパス,通信制サポート校
+minekotogakuinyamagata,マイン高等学院　山形キャンパス,通信制サポート校
+minori_kotobu,みのり高等部,技能連携校
+mirai_kumamoto,未来高等学校 熊本学習センター,通信制高校
+mirai_tokushima,未来高等学校 徳島学習センター,通信制高校
+miraikoutougakkou,未来高等学校,通信制高校
+n_school,学校法人角川ドワンゴ学園 N高等学校,通信制高校
+narajoshi,奈良女子高等学校,通信制高校
+nhkgakuen,NHK学園高等学校,通信制高校
+npckotogakuin,NPC高等学院,通信制サポート校
+NSAkotogakuin,NSA高等学院,通信制サポート校
+seika_hiroshima,精華学園高等学校　広島校,通信制高校
+seika_kobenagata,精華学園高等学校 神戸長田校,通信制高校
+seika_okayama,学校法人山口精華学園　精華学園高等学校　岡山校,通信制高校
+seikagakuenkotogakkoageo,精華学園高等学校　上尾校,通信制高校
+seikagakuenkoutougakkokawagoe,精華学園高等学校 川越学習センター,通信制高校
+seisa_hamamatsu,星槎国際高等学校 浜松学習センター,通信制高校
+sendaiikueigakuen,仙台育英学園高等学校 広域通信制課程,通信制高校
+shohei-highschool,東日本国際大学附属昌平高等学校 通信制課程,通信制高校
+shoinkoto_kannai,松陰高等学校 みなとみらい学習センター,通信制高校
+shoyogakuen,翔洋学園高等学校,通信制高校
+souzougakuenkoutougakkou,創造学園高等学校,通信制高校
+syouinkoutougakkou_takamatukou_marugamekou,松陰高等学校 高松校・丸亀校,通信制高校
+takamiyakoto,高宮学院・高等部,通信制サポート校
+tkaiseikashiwa,つくば開成高等学校　柏学習センター,通信制高校
+tokaibosei,東海大学付属望星高等学校,通信制高校
+tokyo_ryojutsu,東京療術学院 高等部 東京校,通信制サポート校
+tokyogeinougakuen,東京芸能学園 高等部,通信制サポート校
+tourikokusaikoutougakuin,桃李国際高等学院,通信制サポート校
+tryshikikoutougakuin,トライ式高等学院,通信制サポート校
+turtlegakuenwill,学研のサポート校・WILL学園,通信制サポート校
+vantan_drone_robo,バンタン高等学院 ドローン＆ロボティクス専攻,通信制サポート校
+vantangame_osaka,バンタンゲームアカデミー高等部 大阪校,通信制サポート校
+vantangame_tokyo,バンタンゲームアカデミー高等部 東京校,通信制サポート校
+wasedasupport,早稲田サポート学院,通信制サポート校
+witsshinosaka,さくら国際高等学校　新大阪学習センター,通信制高校
+yakushimaohzora,屋久島おおぞら高等学校,通信制高校
+yashimagakuen,八洲学園高等学校,通信制高校
+yushikokusaikoko,勇志国際高等学校,通信制高校

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /add_watch_list.html
+
+Sitemap: https://www.start47.com/sitemap.xml
